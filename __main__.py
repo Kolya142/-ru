@@ -1,0 +1,10 @@
+import os
+f = int(input("первое число: "))
+s = int(input("второе число: "))
+fs = (f / s)
+ifs =(int(fs))
+wfs =(ifs * s)
+osf =(f - wfs)
+pfs =("число: " + str(ifs) + "|ост: " + str(osf))
+print(pfs)
+os.system("pause >nul")
